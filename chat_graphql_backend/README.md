@@ -1,7 +1,7 @@
 # ChatGraphqlBackend
 
 To start your Phoenix app:
-
+  * https://www.youtube.com/watch?v=e24c8i6xloU
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
   * Start Phoenix endpoint with `mix phoenix.server`
