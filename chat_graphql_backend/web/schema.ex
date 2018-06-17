@@ -16,4 +16,12 @@ defmodule ChatGraphqlBackend.Schema do
       resolve &ChatGraphqlBackend.UserResolver.find/2
     end
   end
+  mutation do
+    field :create_message, :message do
+      arg :body, non_null(:string)
+      arg :user_id, non_null(:id)
+      resolve &ChatGraphqlBackend.MessageResolver.create_message/3
+    end
+  end
+
 end
